@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:white;
+        }
+        .form-box {
+            width: 500px;
+            margin: 50px auto;
+            background:whitesmoke;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border : 2px solid black;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            background: green;
+            color: honeydew;
+            border:2px solid black;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+
+<body>
+  
+
+
+
+<div class="form-box">
+    <h2>Admission Form</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Date of Birth</label>
+        <input type="date" required>
+
+        <label>Gender</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number">
+
+        <label>Course</label>
+        <select required>
+            <option value="">Select Course</option>
+            <option>BSC IT AI&ML</option>
+            <option>BSC IT CYBER SECURITY</option>
+            <option>IMCA AI&ML</option>
+            <option>IMCA CYBER SECURITY</option>
+        </select>
+         <label>Upload Photo</label>
+        <input type="file">
+
+
+        <label>Address</label>
+        <textarea placeholder="Enter address"></textarea>
+
+       
+
+        <button type="submit">Submit</button>
+        
+    </form>
+</div>
+
+</body>
+</html>                                                                                                                                                       
